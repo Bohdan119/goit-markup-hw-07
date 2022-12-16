@@ -20,10 +20,8 @@
     left: 0;
     width: 100%;
     height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    @extend %position;
+    justify-content: center;    
     background-color: rgba(47, 48, 58, 0.8);
     font-weight: var(--font-weig-b);
     font-size: 14px;
