@@ -1,14 +1,4 @@
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  color: var(--color-main);
-}
-
 :root {
-  --font-ral:"Raleway", sans-serif;
-  --font-rob:"Roboto", sans-serif;
   --font-weig:500;
   --font-weig-b:700;
   --color-change:#2196F3;
@@ -27,6 +17,24 @@ body {
   --line-logo:1.19;
   --tran-dur: 250ms;
   --tran-tim-fun: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.skill-list__image, .contacts__tel,
+.contacts__mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--color-main);
 }
 
 .title {
@@ -252,7 +260,7 @@ img {
   height: 31px;
 }
 .header-logo__studio {
-  font-family: var(--font-ral);
+  font-family: Raleway, sans-serif;
   font-weight: var(--font-weig-b);
   font-size: 26px;
   line-height: var(--line-logo);
@@ -260,7 +268,7 @@ img {
   text-decoration: none;
 }
 .header-logo__web {
-  font-family: var(--font-ral);
+  font-family: Raleway, sans-serif;
   font-weight: var(--font-weig-b);
   font-size: 26px;
   line-height: var(--line-logo);
@@ -317,12 +325,6 @@ img {
   line-height: var(--line-nav);
   letter-spacing: 0.02em;
   color: var(--color-main);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: var(--tran-dur);
@@ -390,12 +392,6 @@ img {
   border-radius: 4px;
   background-color: var(--color-filter);
   margin-bottom: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -616,14 +612,14 @@ footer {
   margin-bottom: 20px;
 }
 .footer-logo__web {
-  font-family: var(--font-ral);
+  font-family: Raleway, sans-serif;
   font-weight: var(--font-weig-b);
   font-size: 26px;
   line-height: var(--line-logo);
   color: var(--color-change);
 }
 .footer-logo__studio {
-  font-family: var(--font-ral);
+  font-family: Raleway, sans-serif;
   font-weight: var(--font-weig-b);
   font-size: 26px;
   line-height: var(--line-logo);

@@ -15,7 +15,7 @@ footer{
     margin-bottom: 20px;
     
     &__web{
-    font-family: var(--font-ral);
+    font-family: $fontLogo;
     font-weight:var(--font-weig-b);
     font-size: 26px;
     line-height:var(--line-logo);
@@ -23,7 +23,7 @@ footer{
     }
 
     &__studio{
-    font-family:var(--font-ral);
+    font-family:$fontLogo;
     font-weight:var(--font-weig-b);
     font-size: 26px;
     line-height:var(--line-logo);

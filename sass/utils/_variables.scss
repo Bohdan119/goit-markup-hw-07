@@ -1,7 +1,11 @@
-:root{
-    --font-ral:"Raleway", sans-serif;
-    --font-rob:"Roboto", sans-serif;
+$fontPrimary: Roboto,
+    sans-serif;
+$fontLogo: Raleway,
+    sans-serif;
     
+:root{
+    // --font-ral:"Raleway", sans-serif;
+    // --font-rob:"Roboto", sans-serif;
     --font-weig:500;
     --font-weig-b:700;
     

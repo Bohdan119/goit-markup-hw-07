@@ -11,8 +11,7 @@ height: 120px;
 border-radius: 4px;
 background-color: var(--color-filter);
 margin-bottom: 30px;
-display: flex;
-align-items: center;
+@extend %position;
 justify-content: center;
 }
 

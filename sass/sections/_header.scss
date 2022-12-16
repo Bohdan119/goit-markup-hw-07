@@ -15,7 +15,7 @@
     height: 31px;
     
     &__studio{
-    font-family:var(--font-ral);
+    font-family:$fontLogo;
     font-weight: var(--font-weig-b);
     font-size: 26px;
     line-height:var(--line-logo);
@@ -24,7 +24,7 @@
     }
     
     &__web{
-    font-family: var(--font-ral);
+    font-family: $fontLogo;
     font-weight:var(--font-weig-b);
     font-size: 26px;
     line-height: var(--line-logo);
@@ -78,8 +78,9 @@
     line-height:var(--line-nav);
     letter-spacing: 0.02em;
     color:var(--color-main);
-    display: flex;
-    align-items: center;
+    @extend %position;
+    // display: flex;
+    // align-items: center;
     
     transition-property: color;
     transition-duration: var(--tran-dur);
